@@ -1,0 +1,256 @@
+html {
+    background: white;
+}
+h3 {
+	font-family: calibri;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	font-family: calibri;
+    max-width: 860px;
+    min-width: 360px;
+    margin: 0px auto;
+    background: url(images/bg-main.jpg) top left;/* #F8F8F8; */
+    padding:0px 5px;
+    text-align:center;
+}
+
+.page-title  {
+	font-family: calibri;
+    font-size:120%;
+    text-align: left;
+    margin:10px 0px;
+}
+.header-container {
+	font-family: calibri;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    background: url(images/header-bg.png) no-repeat #d93c34;/*  #5f5f5f; */
+    color: white;
+    /* height: 136px; */
+}
+.header-container .header-bar  {
+	font-family: calibri;
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+}
+.header-container .header-bar  a  {
+    color: white;
+    font-size: bold;
+    font-family: calibri;
+}
+
+.footer-container {
+	font-family: calibri;
+    text-align: center;
+    margin-top: 10px;
+    padding: 5px 0px 10px 0px;
+    border-top: 1px solid #ccc;
+}
+.menu-container {
+	font-family: calibri;
+    text-align: right;
+    margin: 10px 5px;
+}
+.menu-container a {
+	font-family: calibri;
+    margin: 5px 5px 5px 10px;
+    color: #004d99;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.site-name {
+    font-family: calibri;
+    font-size:200%;
+    margin:10px 10px 10px 0px;
+    padding: 5px;
+}
+
+.container  {
+	font-family: calibri;
+    margin: 5px 0px;
+}
+
+.demo-container, .login-container, .account-container {
+	font-family: calibri;
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align:left;
+    margin:20px 0px;
+    border-radius: 10px;
+    background: #ffffff;
+}
+
+.customer-info-container {
+	font-family: calibri;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 0px 5px;
+}
+.product-preview-container {
+	font-family: calibri;
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* width: 250px; */
+    margin: 10px ;
+    /* display: inline-block; */
+    text-align:left;
+    border-radius: 10px;
+}
+.submit_view {
+	border: 1px solid #0a75d8;
+	border-radius: 28px;
+	padding: 9px 25px;
+	color: #0a75d8;
+	background: none;
+	font-size: 16px;
+	float: right;
+}
+.submit_view_search {
+	border: 1px solid #0a75d8;
+	border-radius: 28px;
+	padding: 9px 25px;
+	color: #0a75d8;
+	background: none;
+	font-size: 16px;
+}
+
+.product-preview-container-inner {
+	font-family: calibri;
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 250px;
+    margin: 10px ;
+    display: inline-block;
+    text-align:left;
+}
+
+.product-preview-container-review {
+	font-family: calibri;
+    border: 1px solid #ccc;
+    padding: 5px;
+    /* width: 500px; */
+    margin: 10px ;
+    /* display: inline-block; */
+    text-align:left;
+    vertical-align: top;
+}
+
+.product-preview-container input {
+	font-family: calibri;
+    width: 50px;
+}
+
+.user_thumb {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border: 9px solid #ddd;
+	border-radius: 2px;
+}
+.user_thumb_box, .user_record_content {
+	display: table-cell;
+	vertical-align: top;
+}
+.user_record_info {
+	display: block;
+	width: 100%;
+	margin: 20px 0;
+}
+.record_group {
+	display: table-row;
+}
+.record_title, .record_desc {
+	display: table-cell;
+	padding-bottom: 12px;
+	font-family: 'ProximaNova-Semibold';
+}
+.user_record_content {
+	padding-left: 30px;
+}
+
+
+.product-image {
+    /* width: 120px;
+    height: 80px; */
+    min-width: 131px;
+	min-height: 131px;
+	width: 100%;
+	height: auto;
+	max-width: 155px;
+    max-height: 155px;
+}
+
+ul {
+	font-family: calibri;
+    list-style-type: none;
+    padding-left: 5px;
+    margin:5px;
+}
+
+
+.navi-item {
+	font-family: calibri;
+    margin: 5px 5px 5px 20px;
+}
+
+.button-update-sc {
+	font-family: calibri;
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+
+.button-send-sc {
+	font-family: calibri;
+    color: red;
+    margin: 5px 5px 5px 20px;
+}
+
+.error-message {
+	font-family: calibri;
+    font-size: 90%;
+    color: red;
+    font-style: italic;
+}
+
+.price {
+	font-family: calibri;
+    color: blue;
+    font-weight: bold;
+}
+
+.subtotal {
+	font-family: calibri;
+    color: red;
+    font-weight: bold;
+}
+
+.total {
+	font-family: calibri;
+    color: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+table td {
+	font-family: calibri;
+    padding: 5px;
+}
+
+.login-container .form-control {
+	background-color: transparent;
+	box-shadow: none;
+	border-bottom: 1px solid #d6d6d6;
+	border-top: 0px solid #949494;
+	border-right: 0px solid #949494;
+	border-left: 0px solid #949494;
+	font-size: 14px;
+	color: #565656;
+	text-transform: capitalize;
+	border-radius: 0px;
+	padding: 15px 12px 6px 0;
+}
