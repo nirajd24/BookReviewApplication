@@ -5,11 +5,6 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.criterion.Restrictions;
 
-import javax.persistence.EntityManager;
-import javax.persistence.criteria.CriteriaBuilder;
-import javax.persistence.criteria.CriteriaQuery;
-import javax.persistence.criteria.Root;
-
 import org.ecommerce.bookreviewapp.dao.AccountDAO;
 import org.ecommerce.bookreviewapp.entity.Account;
 import org.ecommerce.bookreviewapp.model.AccountInfo;

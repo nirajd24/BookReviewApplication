@@ -23,7 +23,6 @@ import org.ecommerce.bookreviewapp.model.PaginationResult;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 
-//Transactional for Hibernate
 @Transactional
 public class OrderDAOImpl implements OrderDAO {
 
